@@ -2,7 +2,7 @@
 #
 # VERSION 1.1
 
-FROM aooj/base:1.5
+FROM aooj/base:latest
 
 MAINTAINER AooJ "aoj@n13.cz"
 
