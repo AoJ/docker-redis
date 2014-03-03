@@ -8,7 +8,7 @@
 
 
 NAME=aooj/redis
-VERSION=1.0
+VERSION=1.1
 
 
 build:
@@ -20,6 +20,7 @@ run:
 
 debug: build
 	docker run -p 6379 -t -i $(NAME):$(VERSION) /bin/bash	
+
 
 ssh:
 	@ID=$$(docker ps | grep -F "$(NAME):$(VERSION)" | awk '{ print $$1 }') && \

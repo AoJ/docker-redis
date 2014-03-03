@@ -1,8 +1,8 @@
 # Docker redis
 #
-# VERSION 1.0
+# VERSION 1.1
 
-FROM aooj/base:1.4
+FROM aooj/base:1.5
 
 MAINTAINER AooJ "aoj@n13.cz"
 

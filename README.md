@@ -19,4 +19,5 @@ warning: ssh login is enabled and my private key is included!
 
     
 ## Changelog
+- 1.1 update to aooj/base:1.5
 - 1.0 first realese
