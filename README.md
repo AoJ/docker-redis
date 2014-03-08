@@ -1,7 +1,5 @@
 # Docker redis
 
-warning: ssh login is enabled and my private key is included!
-
 ## Usage
 
 ### in Dockerfile
