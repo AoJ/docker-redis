@@ -18,6 +18,7 @@ build:
 run:
 	docker run -p 6300:6379 -t -i $(NAME):$(VERSION)
 
+
 debug: build
 	docker run -p 6379 -t -i $(NAME):$(VERSION) /bin/bash	
 
